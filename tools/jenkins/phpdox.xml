@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpdox xmlns="http://xml.phpdox.net/config">
+  <project name="fsm" source="${basedir}/../../resources" workdir="${basedir}/docs">
+    <collector backend="parser" />
+    <generator output="${basedir}/docs">
+      <build engine="html" output="html"/>
+      <enrich base="${basedir}/logs">
+        <source type="phploc" />
+      </enrich>
+    </generator>
+  </project>
+</phpdox>
