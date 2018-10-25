@@ -1,5 +1,5 @@
 # puppy
-a simple REST API along with some other boilerplate code written in PHP
+PHP boilerplate project developed as part of an interview assignment wherein one of the conditions was not to use frameworks or any third party libraries on the backend.
 
 # Run
 ```bash
